@@ -20,9 +20,10 @@ body,
 
 body 
 {
+  padding: 0;
   margin: 0;
-  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial,
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   color: #111;
   background: #f4f4f4;
   -webkit-font-smoothing: antialiased;
@@ -58,7 +59,7 @@ body
 .grid 
 {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr)); /* Default: 3 columns */
+  grid-template-columns: repeat(2, minmax(0, 1fr)); /* Default: 3 columns */
   gap: 20px;
   width: 100%;
   align-items: stretch;
