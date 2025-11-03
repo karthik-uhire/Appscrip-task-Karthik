@@ -477,7 +477,7 @@ function App({ Component, pageProps }) {
         ...pageProps
     }, void 0, false, {
         fileName: "[project]/src/pages/_app.jsx",
-        lineNumber: 10,
+        lineNumber: 6,
         columnNumber: 12
     }, this);
 }

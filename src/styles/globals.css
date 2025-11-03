@@ -59,7 +59,7 @@ body
 .grid 
 {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr)); /* Default: 3 columns */
+  grid-template-columns: repeat(3, minmax(0, 1fr)); /* Default: 3 columns */
   gap: 20px;
   width: 100%;
   align-items: stretch;
@@ -78,22 +78,7 @@ body
     grid-template-columns: 1fr;
   }
 }
-/*
- .grid 
-{
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 20px;
-  width: 100%;
-}
  
-@media (max-width: 768px)
- {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-}
-*/
 .card
  {
   background: var(--card-bg);

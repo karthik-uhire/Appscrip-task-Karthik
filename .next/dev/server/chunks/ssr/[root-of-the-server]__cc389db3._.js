@@ -38,25 +38,7 @@ module.exports = mod;
 "[project]/src/pages/_document.jsx [ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/*
-import { Html, Head, Main, NextScript } from "next/document";
-export default function Document()
-{
-    return (
-        <Html lang="en">
-            <Head>
- 
-            </Head>
-            <body>
-                <Main/>
-                <NextScript/>
-            </body>
-        </Html>
-
-    );
-
-}
-*/ __turbopack_context__.s([
+__turbopack_context__.s([
     "default",
     ()=>Document
 ]);
@@ -70,31 +52,31 @@ function Document() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$document$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["Head"], {}, void 0, false, {
                 fileName: "[project]/src/pages/_document.jsx",
-                lineNumber: 25,
+                lineNumber: 7,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("body", {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$document$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["Main"], {}, void 0, false, {
                         fileName: "[project]/src/pages/_document.jsx",
-                        lineNumber: 29,
+                        lineNumber: 11,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$document$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["NextScript"], {}, void 0, false, {
                         fileName: "[project]/src/pages/_document.jsx",
-                        lineNumber: 30,
+                        lineNumber: 12,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/pages/_document.jsx",
-                lineNumber: 28,
+                lineNumber: 10,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/pages/_document.jsx",
-        lineNumber: 24,
+        lineNumber: 6,
         columnNumber: 5
     }, this);
 }
